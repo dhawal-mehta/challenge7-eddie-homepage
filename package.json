@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "node-sass -o styles/css styles/scss"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.0"
+  }
+}
