@@ -2,21 +2,217 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1,
-  maximum-scale=5"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>challenge3</title>
-    <link rel="stylesheet" href="./styles/css/style.css" />
-    <link rel="stylesheet" href="./styles/css/main.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
     />
+    <style>
+      .icon {
+        display: inline-block;
+        width: 37px;
+        height: 37px;
+        padding: 5px;
+        background-size: cover;
+      }
+      .icon path {
+        fill: #fff;
+      }
+    </style>
   </head>
   <body>
-    <h1>challenge3</h1>
+    <section id="navbar" class="px-4">
+      <nav class="navbar navbar-expand-lg bg-body-white">
+        <div class="container-fluid">
+          <a class="navbar-brand font-weight-bold h2" href="#"> Eddie </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse h5" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item mx-lg-4">
+                <a class="nav-link" href="#">Home</a>
+              </li>
+              <li class="nav-item mx-lg-4">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item mx-lg-4">
+                <a class="nav-link" href="#">Our Works</a>
+              </li>
+              <li class="nav-item mx-lg-4">
+                <a class="nav-link" href="#">Clients</a>
+              </li>
+              <li class="nav-item mx-lg-4">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <section id="hero" class="px-5 mt-3">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="container col">
+          <div class="text-info font-weight-bold h6">
+            Unhappy with your website?
+          </div>
+          <div class="font-weight-bold h4">
+            We create beautiful <br />
+            and fast web services.
+          </div>
+        </div>
+      </div>
+      <div>
+        <img
+          src="assets/heroImage.jpg"
+          class="rounded-5 img-fluid w-100 mt-3 mb-5"
+        />
+      </div>
+    </section>
+    <section id="cta" class="px-5">
+      <div class="row">
+        <div class="col-2"></div>
+        <div class="container col">
+          <div class="h3">
+            Story, emotion <br />
+            and purpose
+          </div>
+          <div class="text-secondary col-md-4">
+            We help transform your ideas into real world applications that will
+            outperform your toughest competition and help you achieve your
+            strategic goals in short period of time.
+          </div>
+          <div class="text-black-50 mt-3">Want us to contact you?</div>
+
+          <div class="row">
+            <div class="col-md-4">
+              <div class="input-group">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="floatingInputGrid"
+                  placeholder="Email"
+                />
+                <span class="input-group-text">
+                  <div class="btn btn-info text-light rounded-3">Join</div>
+                </span>
+                <!-- <label for="floatingInputGrid">Email address</label> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" class="px-5 mt-5">
+      <div class="container">
+        <div class="font-weight-bold h3 mb-5">
+          We offer high <br />
+          demand services
+        </div>
+        <div class="row justify-content-center g-5">
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <div class="rounded-2 bg-info mb-4 p-3 d-inline-block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="36"
+                    height="36"
+                    fill="currentColor"
+                    class="bi bi-pencil-fill icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M12.854.146a.5.5 0 0 0-.707 0L10.5 1.793 14.207 5.5l1.647-1.646a.5.5 0 0 0 0-.708l-3-3zm.646 6.061L9.793 2.5 3.293 9H3.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.5h.5a.5.5 0 0 1 .5.5v.207l6.5-6.5zm-7.468 7.468A.5.5 0 0 1 6 13.5V13h-.5a.5.5 0 0 1-.5-.5V12h-.5a.5.5 0 0 1-.5-.5V11h-.5a.5.5 0 0 1-.5-.5V10h-.5a.499.499 0 0 1-.175-.032l-.179.178a.5.5 0 0 0-.11.168l-2 5a.5.5 0 0 0 .65.65l5-2a.5.5 0 0 0 .168-.11l.178-.178z"
+                    />
+                  </svg>
+                </div>
+                <h5 class="card-title">UI/UX Design</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  a metus ac nulla consequat aliquet id quis turpis.
+                </p>
+                <a href="#" class="btn btn-light text-secondary">
+                  Get started</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <!-- <div class="rounded-2 bg-info mb-4 p-3 d-inline-block"></div> -->
+                <div class="rounded-2 bg-success mb-4 p-3 d-inline-block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-code icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M5.854 4.854a.5.5 0 1 0-.708-.708l-3.5 3.5a.5.5 0 0 0 0 .708l3.5 3.5a.5.5 0 0 0 .708-.708L2.707 8l3.147-3.146zm4.292 0a.5.5 0 0 1 .708-.708l3.5 3.5a.5.5 0 0 1 0 .708l-3.5 3.5a.5.5 0 0 1-.708-.708L13.293 8l-3.147-3.146z"
+                    />
+                  </svg>
+                </div>
+                <h5 class="card-title">Front End</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  a metus ac nulla consequat aliquet id quis turpis.
+                </p>
+                <a href="#" class="btn btn-info text-light"> Get started</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="card" style="width: 18rem">
+              <div class="card-body">
+                <div class="rounded-2 bg-danger-subtle mb-4 p-3 d-inline-block">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="16"
+                    height="16"
+                    fill="currentColor"
+                    class="bi bi-hdd-stack-fill icon"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      d="M2 9a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-1a2 2 0 0 0-2-2H2zm.5 3a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zM2 2a2 2 0 0 0-2 2v1a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H2zm.5 3a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1zm2 0a.5.5 0 1 1 0-1 .5.5 0 0 1 0 1z"
+                    />
+                  </svg>
+                </div>
+                <h5 class="card-title">Back End</h5>
+                <p class="card-text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
+                  a metus ac nulla consequat aliquet id quis turpis.
+                </p>
+                <a href="#" class="btn btn-light text-secondary">
+                  Get started</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
